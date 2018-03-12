@@ -1,0 +1,1 @@
+https://app.pluralsight.com/player?course=reactjs-advanced&author=samer-buna&name=reactjs-advanced-m2&clip=2
