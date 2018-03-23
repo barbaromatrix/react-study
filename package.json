@@ -5,11 +5,12 @@
   "license": "MIT",
   "scripts": {
     "start": "node lib/server.js",
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "set NODE_PATH=./lib&& nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -wd",
     "test": "jest --watch"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
